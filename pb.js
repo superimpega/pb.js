@@ -133,7 +133,7 @@ function killAPIListeners()
 //Version Numbering chat log
 var major =2,minor=1,patch=4;
    var a = $('#chat-messages'),b = a.scrollTop() > a[0].scrollHeight - a.height() - 20;
-    a.append('<div class="chat-update"><span class="chat-text" style="color:#00FF33"><b>Running PlugBot-TFL version ' + major + '.' + minor + '.' + patch + '</b></span></div>');
+    a.append('<div class="chat-update"><span class="chat-text" style="color:#00FF33"><b>Running PlugBot-Super version ' + major + '.' + minor + '.' + patch + '</b></span></div>');
     b && a.scrollTop(a[0].scrollHeight);
 //force update user list on user join/leave
 function onJoin(){
