@@ -112,9 +112,6 @@ function initAPIListeners()
     API.on(API.CHAT, onChat)
     function onChat(data){
        $('.chat-from-ambassador').attr('style','background-image:url(https://raw.github.com/Maxorq/LastPlug/c75755255596c8e2f35fc087f6abfc2a6d875adf/img/sparkle.gif);');
-    }
-    API.on(API.CHAT, onChat)
-    function onChat(data){
        $('.chat-from-manager').attr('style','background-image:url(https://raw.github.com/Maxorq/LastPlug/c75755255596c8e2f35fc087f6abfc2a6d875adf/img/sparkle.gif);');
     }
     /*
